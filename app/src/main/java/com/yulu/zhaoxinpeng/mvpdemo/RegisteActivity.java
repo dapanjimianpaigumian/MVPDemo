@@ -14,7 +14,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-public class MainActivity extends AppCompatActivity implements RegisteInterface {
+public class RegisteActivity extends AppCompatActivity implements RegisteInterface {
 
     @BindView(R.id.register_username)
     EditText mRegisterUsername;
